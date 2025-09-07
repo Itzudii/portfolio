@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Library Management System",
+        "discription": "The Library Management System is a software application designed to manage and automate various operations of a library",
+        "src": "assets/project_img/library.webp",
+        "url": "https://github.com/Itzudii/Library-Management-System-python-"
+    },
+    {
+        "title": "Car Rent Website",
+        "discription": "This repository contains the codebase for a dynamic car rental website that allows users to browse and rent cars based on availability and dates.",
+        "src": "assets/project_img/car.webp",
+        "url": "https://github.com/Itzudii/Car-Rental-Website-Flask-python"
+    },
+    {
+        "title": "Movie Downloader",
+        "discription": "this project help you to download movies. web scaping technology is used in this project.",
+        "src": "assets/project_img/movie.webp",
+        "url": "https://github.com/Itzudii/Movie-Downloading-System-Python-"
+    },
+    {
+        "title": "Stock Prediction Model",
+        "discription": "In this project, we use historical stock price data to predict future stock prices. The model is built using Python and utilizes TensorFlow/Keras for the deep learning framework.",
+        "src": "assets/project_img/stock.webp",
+        "url": "https://github.com/Itzudii/stock-pridiction-model"
+    },
+    {
+        "title": "Weather forecast",
+        "discription": "this project help you to get information about weather or get weather information using api.",
+        "src": "assets/project_img/weather.png",
+        "url": "https://github.com/Itzudii/weather-forecasting"
+    },
+    {
+        "title": "Website Builder - No Code GUI Platform",
+        "discription": "Welcome to Website Builder, a user-friendly platform designed to help you create stunning websites without writing a single line of code.",
+        "src": "assets/project_img/website_builder.webp",
+        "url": "https://github.com/Itzudii/sitebuilder"
+    }
+]

@@ -1,0 +1,95 @@
+{
+    "skills": [
+        {
+            "name": "Python",
+            "image": "assets/skill/python.png",
+            "type": "language"
+        },
+        {
+            "name": "Java",
+            "image": "assets/skill/java.png",
+            "type": "language"
+        },
+        {
+            "name": "HTML",
+            "image": "assets/skill/html.png",
+            "type": "language"
+        },
+        {
+            "name": "CSS",
+            "image": "assets/skill/css.png",
+            "type": "language"
+        },
+        {
+            "name": "JS",
+            "image": "assets/skill/js.png",
+            "type": "language"
+        },
+        {
+            "name": "SQL",
+            "image": "assets/skill/sql.png",
+            "type": "language"
+        },
+        {
+            "name": "VScode",
+            "image": "assets/skill/vscode.png",
+            "type": "tool"
+        },
+        {
+            "name": "POSTMAN",
+            "image": "assets/skill/postman.png",
+            "type": "tool"
+        },
+        {
+            "name": "Git",
+            "image": "assets/skill/git.png",
+            "type": "tool"
+        },
+        {
+            "name": "Github",
+            "image": "assets/skill/github.png",
+            "type": "tool"
+        },
+        {
+            "name": "WebScraping",
+            "image": "assets/skill/WS.png",
+            "type": "technology"
+        },
+        {
+            "name": "Micro Services",
+            "image": "assets/skill/MS.png",
+            "type": "technology"
+        },
+        {
+            "name": "Machine Learn.",
+            "image": "assets/skill/ML.png",
+            "type": "technology"
+        },
+        {
+            "name": "2d game dev",
+            "image": "assets/skill/2dgame.png",
+            "type": "technology"
+        }
+        
+    ],
+    "book": {
+        "ani": [
+            "assets/book/frame_0.png",
+            "assets/book/frame_1.png",
+            "assets/book/frame_2.png",
+            "assets/book/frame_3.png",
+            "assets/book/frame_4.png",
+            "assets/book/frame_5.png",
+            "assets/book/frame_6.png",
+            "assets/book/frame_7.png",
+            "assets/book/frame_8.png",
+            "assets/book/frame_9.png"
+        ],
+        "open": [
+            "assets/book/frame_0.png"
+        ],
+        "close": [
+            "assets/book/close.png"
+        ]
+    }
+}
