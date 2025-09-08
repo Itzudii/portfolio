@@ -33,7 +33,7 @@ export function randomInt(min, max) {
   
 }
 export function randomChoice(array) {
-        return array[randomInt(0,array.length)]
+        return array[randomInt(0,array.length-1)]
 
     }
 
@@ -69,4 +69,5 @@ export function domtopng(canvas,filename){
   link.href = canvas.toDataURL("image/png"); // Convert to base64 PNG
   link.click();
 }
+
 // examples
