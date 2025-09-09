@@ -96,7 +96,7 @@ async function addachivement() {
         const img = await getImg(title);
         div.innerHTML = `<div class="achievement-frame-img" style="background-image: url(${img});"></div>
                     <div class="achievement-frame-about">
-                        <h3>${title}</h3>
+                        <h3>${title.toUpperCase()}</h3>
                         <p>${discription}</p>
                     </div>`;
         return div;

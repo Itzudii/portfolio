@@ -40,6 +40,7 @@ export class Book {
         this.clickeffect(this.screen);
         this.font = new font(this.screen, 'enchant', clamp(10, window.innerWidth / 153.6, 16));
         this.fonttext = new font(this.screen, 'mc', 16)
+        this.fonthead = new font(this.screen, 'mc', clamp(20,window.innerWidth/15,32))
         await this.loaddata();
 
         this.skills.forEach(async (dict) => {
@@ -140,8 +141,7 @@ export class Book {
                 this.drawEnchantText(this.font, [0, 0, 0]);
                 this.drawText(this.fonttext, [0, 0, 0]);
             } else {
-                this.fonttext.fillrender("Skills", [255, 155, 255], [this.dx * 7, this.dy * 2.5])
-
+                this.fonthead.fillrender("Skills", [255, 214, 52], [this.dx * 6.3, this.dy * 2.5])
             }
         } else {
 

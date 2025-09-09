@@ -30,26 +30,6 @@
                         <p> Take a look through my projects, explore my process, and feel free to get in touch if you
                             have any questions or would like to collaborate. I'm excited to share my work with you!</p>
                         <p> Thankyou!</p>
-                        <style>
-                            .resume-btn{
-                                width: 150px;
-                                height: 30px ;
-                                background: #6E6E6E;
-                                text-align: center;
-                                align-content: center;
-                                border-radius: 1px;
-                                color: rgb(255, 255, 255);
-                                /* border: 2px solid  #c2ad47; */
-                                border-top: 2px solid #AAAAAA;
-                                border-left: 2px solid #AAAAAA;
-                                border-right: 2px solid #565656;
-                                border-bottom: 2px solid #565656;
-                            }
-                            .resume-btn:hover{
-                                background-color: #0b660b;
-                                cursor: pointer;
-                            }
-                        </style>
                         <a href="resume/Uditya(resume)1.pdf" download ><div class="resume-btn">RESUME</div></a>
 
                     </div>
@@ -77,11 +57,9 @@
         </section>
         <!-- overworld window -->
         <div class="window ach-block" data-title="Debugging Buddy" data-desc="Man’s best friend, now in code too.">
-            <!-- <canvas id="houseJSnakeCanvas" class="base2"></canvas> -->
-            <!-- <canvas id="house2JSnakeCanvas" class="base2"></canvas> -->
             <div id="houseJSnakeCanvas" class="base2"></div>
-            <canvas id="house2JSnakeCanvas" class="base2" style="position: absolute;z-index: 0;"></canvas>
-            <canvas id="house3JSnakeCanvas" class="" style="position: absolute;z-index: 1;"></canvas>
+            <canvas id="house2JSnakeCanvas" class="base2 ani-layer" ></canvas>
+            <canvas id="house3JSnakeCanvas" class=" filter-layer" ></canvas>
         </div>
         <!-- projects section -->
         <section class="projects ach-block" data-title="Crafting Creativity" data-desc="Built projects with imagination and precision.">
@@ -129,7 +107,9 @@
         <section class="section-achievement ach-block" data-title="Glory Under the Stars" data-desc="Built projects that shine even in the dark." >
             <section class="section-achievement-bg"></section>
             <section class="section-achievement-content">
+                <h2 style="text-align: center;">Achievement</h2>
                 <div>
+                    
                     <img class="achievement-img" src="assets/archivment/trophy.png" alt="">
                 </div>
 
@@ -159,10 +139,10 @@
         <div class="slab20" style="background-color: rgb(26, 26, 26);"></div>
         <div class="slab100" style="background-color: rgb(0, 0, 0);"></div>
         <!-- lava pool window -->
-        <div class="window  ach-block" data-title="Lava Pool Found!" data-desc="Burned away all obstacles like they never existed." >
+        <div class="window  ach-block" data-title="Lava Pool" data-desc="Burned away all obstacles like they never existed." >
             <div id="lava1JSnakeCanvas" class=""></div>
-            <canvas id="lava3JSnakeCanvas" class="" style="position: absolute;"></canvas>
-            <canvas id="lava2JSnakeCanvas" class="" style="position: absolute;"></canvas>
+            <canvas id="lava3JSnakeCanvas" style="position: absolute;"></canvas>
+            <canvas id="lava2JSnakeCanvas" style="position: absolute;"></canvas>
         </div>
         <script type="module" src="JS/canvasScript.js"></script>
         <!-- model  -->
@@ -225,6 +205,7 @@
         <div class="slab20" style="background-color: rgb(71, 71, 71);"></div>
         <!-- Social icons -->
         <section class="social-section">
+            <h2 style="color: rgb(180, 161, 16);text-align: center;">Social Portions</h2>
             <div class="social-container">
                 <a href="https://www.instagram.com/itz_udii.25/">
                     <div class="social-icon" style="background-image: url('assets/social/instagram.png');" id="instagram">
