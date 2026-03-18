@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Itzudii — Repository</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/project.css">
+  <link rel="stylesheet" href="css/common.css">
+
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-text">// Loading Repository</div>
+    <div class="loader-bar">
+      <div class="loader-fill"></div>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cur" id="cur"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo-cell">
+        <span class="nav-logo-bracket">[</span>
+        <a class="nav-logo-name" id="nav-owner" href="#">—</a>
+        <span class="nav-logo-bracket">]</span>
+      </div>
+      <div class="nav-right">
+        <div class="status-dot"></div>
+        active repository
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrapper" id="main-wrapper">
+
+    <!-- HEADER — populated by JS -->
+    <div class="repo-header" id="repo-header">
+      <div class="avatar-col">
+        <div class="avatar-frame">
+          <img class="avatar" id="owner-avatar" src="" alt="avatar">
+        </div>
+        <div class="avatar-sub">Owner</div>
+      </div>
+      <div class="header-body">
+        <div class="header-eyebrow">[ Repository — 001 ]</div>
+        <h1 class="repo-title" id="repo-title-el">—</h1>
+        <div class="repo-sub" id="repo-sub-el">—</div>
+        <div class="badges" id="badges-el"></div>
+        <div class="header-links" id="header-links-el"></div>
+      </div>
+    </div>
+
+    <!-- TABS -->
+    <div class="tab-bar">
+      <div class="tab active" data-tab="overview">Overview <span class="tab-n">01</span></div>
+      <div class="tab" data-tab="structure">Structure <span class="tab-n">02</span></div>
+      <div class="tab" data-tab="branches">Branches <span class="tab-n">03</span></div>
+    </div>
+
+    <!-- OVERVIEW -->
+    <div class="panel" id="panel-overview">
+      <div class="overview">
+        <div class="ov-main">
+          <div class="s-label">[ Project Brief ]</div>
+          <p class="project-desc" id="proj-desc">—</p>
+          <table class="meta-tbl" id="meta-tbl"></table>
+        </div>
+        <div class="ov-side">
+          <div class="s-label">[ Stats ]</div>
+          <div class="stat-grid" id="stat-grid"></div>
+          <div class="s-label">[ Stack ]</div>
+          <div class="stack-row" id="stack-row"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- STRUCTURE -->
+    <div class="panel hidden" id="panel-structure">
+      <div class="tree-wrap">
+        <div class="s-label" style="margin-bottom:24px">[ Project Structure ]</div>
+        <ul class="tree-ul" id="fileTree"></ul>
+      </div>
+    </div>
+
+    <!-- BRANCHES -->
+    <div class="panel hidden" id="panel-branches">
+      <div class="branches-wrap">
+        <div class="branch-list-col">
+          <div class="s-label" style="margin-bottom:24px">[ Branches ]</div>
+          <div id="branchTree"></div>
+        </div>
+        <div class="commit-detail-col">
+          <div class="s-label" style="margin-bottom:20px">[ Commit Detail ]</div>
+          <div class="cd-empty" id="cdEmpty">— Select a commit</div>
+          <div class="cd-inner" id="cdInner">
+            <div class="cd-sha" id="cdSha"></div>
+            <div class="cd-msg" id="cdMsg"></div>
+            <div class="cd-date" id="cdDate"
+              style="font-size:11px;color:var(--dim);margin-bottom:20px;letter-spacing:1px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- NOT FOUND STATE -->
+  <div id="not-found" style="display:none;position:relative;z-index:1;padding:120px 52px;text-align:center">
+    <div style="font-size:10px;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:20px">[ 404 ]
+    </div>
+    <div
+      style="font-family:var(--serif);font-size:48px;font-weight:300;font-style:italic;color:var(--cream);margin-bottom:12px">
+      Repository <strong style="font-style:normal;font-weight:600;color:var(--gold2)">not found</strong></div>
+    <div style="color:var(--dim);font-size:12px;letter-spacing:1px" id="not-found-msg">—</div>
+    <a href="./portfolio-v2.html"
+      style="display:inline-block;margin-top:32px;background:var(--gold);color:var(--ink);padding:12px 28px;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none">←
+      Back to Portfolio</a>
+  </div>
+
+  <footer id="footer-el">
+    <div id="footer-name-el">—</div>
+    <div id="footer-branch-el">[ <span>—</span> ]</div>
+  </footer>
+
+  <script src="./js/project.js"></script>
+</body>
+
+</html>

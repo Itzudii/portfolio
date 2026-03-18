@@ -1,0 +1,211 @@
+:root {
+    --ink: #0b0a07;
+    --ink2: #141209;
+    --ink3: #1c1a14;
+    --gold: #c8922a;
+    --gold2: #e8b84b;
+    --gold3: #f5d07a;
+    --cream: #f0ead8;
+    --cream2: #e8dfc8;
+    --dim: #5a5340;
+    --dim2: #3d3828;
+    --wire: #2a2518;
+    --wire2: #3a3328;
+    --red: #c0392b;
+    --green: #2d7a4f;
+    --mono: 'Space Mono', monospace;
+    --serif: 'Cormorant Garamond', serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--ink);
+    color: var(--cream);
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    cursor: crosshair;
+}
+
+/* Scanlines overlay — same as portfolio_v2 */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(0deg,
+            transparent, transparent 2px,
+            rgba(0, 0, 0, .08) 2px, rgba(0, 0, 0, .08) 4px);
+    pointer-events: none;
+    z-index: 1000
+}
+
+/* Grain texture */
+body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    opacity: .6;
+    pointer-events: none;
+    z-index: 999;
+}
+
+/* ── LOADER ── */
+#loader {
+    position: fixed;
+    inset: 0;
+    background: var(--ink);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .6s .2s;
+}
+
+#loader.gone {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loader-text {
+    font-size: 10px;
+    color: var(--gold);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.loader-bar {
+    width: 200px;
+    height: 1px;
+    background: var(--wire2);
+    overflow: hidden;
+}
+
+.loader-fill {
+    height: 100%;
+    background: var(--gold);
+    animation: load 1.8s ease forwards
+}
+
+@keyframes load {
+    0% {
+        width: 0
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+/* ── CURSOR ── */
+.cur {
+    position: fixed;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--gold);
+    pointer-events: none;
+    z-index: 9998;
+    transform: translate(-50%, -50%);
+    transition: width .2s, height .2s, opacity .2s;
+}
+
+.cur::before,
+.cur::after {
+    content: '';
+    position: absolute;
+    background: var(--gold);
+}
+
+.cur::before {
+    width: 1px;
+    height: 6px;
+    left: 50%;
+    top: -4px;
+    transform: translateX(-50%);
+}
+
+.cur::after {
+    width: 6px;
+    height: 1px;
+    top: 50%;
+    left: -4px;
+    transform: translateY(-50%);
+}
+
+.cur.big {
+    width: 40px;
+    height: 40px;
+    opacity: .5;
+}
+
+/* ── NAV ── */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    border-bottom: 1px solid var(--wire2);
+    background: rgba(11, 10, 7, .92);
+    backdrop-filter: blur(10px);
+}
+
+.nav-inner {
+    display: flex;
+    align-items: stretch;
+    height: 52px;
+}
+
+.nav-logo-cell {
+    padding: 0 28px;
+    border-right: 1px solid var(--wire2);
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-bracket {
+    color: var(--dim);
+    font-size: 16px
+}
+.nav-logo-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+.status-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: blink 2s infinite
+}
+
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: .3
+    }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "research",         
+    "title": "Stock Prediction Using  ML And LSTM",
+    "authors": "Uditya Patel, Aditya Patel, Sneha Padiyal",
+    "description": "Predic Stock price using Deep Learning",
+    "year": "2024",
+    "id": "542035",       
+    "url": "http://www.jetir.org/view?paper=JETIR2407370"      
+  },
+  {
+    "type": "copyright",         
+    "title": "JSnake (JS Based Game Development Kit)",
+    "authors": "Uditya Patel, Aditya Patel, Dr. Prashant Jain, Mrs. Sakshi Agrawal",
+    "description": "game development libraray which help to create web games using Canvas3",
+    "year": "2025",
+    "id": " SW-42566/2025-CO",       
+    "url": ""      
+  }
+]

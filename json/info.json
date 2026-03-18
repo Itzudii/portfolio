@@ -1,0 +1,131 @@
+{
+    "name": "Uditya Patel",
+    "position": "Software Developer",
+    "des": [
+        "Results-driven Software Developer with strong foundation in computer science.",
+        "Experienced in full-stack development and AI-based solutions.",
+        "Passionate about problem-solving and continuous learning."
+    ],
+    "experience": "Fresher",
+    "projects-shipped": "5+",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Flask",
+        "Data Structures",
+        "Pygame",
+        "Github"
+    ],
+    "location": [
+        "Indore / Remote",
+        "UTC +5:30"
+    ],
+    "education": [
+        "B.Tech Computer Science & Engineering (2023 - 2027)"
+    ],
+    "languages": [
+        "English (Fluent)",
+        "Hindi (Native)"
+    ],
+    "contact": {
+        "email": "pateluditya2004@gmail.com",
+        "linkedin": "www.linkedin.com/in/udityapatel/",
+        "github": "Itzudii"
+    },
+    "tags": [
+        "Developer",
+        "AI Enthusiast",
+        "Problem Solver"
+    ],
+    "article": {
+        "para1": "I am a software developer with a strong interest in building scalable applications and AI-driven solutions. I enjoy working on real-world problems and turning ideas into functional products.",
+        "para2": "My experience includes developing machine learning models, web applications, and JavaScript libraries. I continuously explore new technologies and improve my skills through projects and learning."
+    },
+    "skill-deep": [
+        {
+            "skill": "JavaScript",
+            "lvl": "Intermediate",
+            "pro": 3,
+            "years": "1-2 years"
+        },
+        {
+            "skill": "Python",
+            "lvl": "Expert",
+            "pro": 4,
+            "years": "1-2 years"
+        },
+        {
+            "skill": "Flask",
+            "lvl": "Expert",
+            "pro": 3,
+            "years": "1 year"
+        },
+        {
+            "skill": "Java",
+            "lvl": "Beginner",
+            "pro": 2,
+            "years": "6 months"
+        }
+    ],
+    "career-history": [
+        {
+            "position": "Student Developer",
+            "compony": "Self Projects",
+            "des": "Worked on multiple academic and personal projects in AI and web development.",
+            "work": [
+                "Built LSTM-based stock prediction model",
+                "Developed AI game player using NEAT",
+                "Created JavaScript 2D game development library"
+            ]
+        },
+        {
+            "position": "Python Developer",
+            "compony": "CodeAlpha",
+            "des": "Worked on Python Project",
+            "work": [
+                "Built Flask Web Applications",
+                "Build Web services"
+            ]
+        },
+        {
+            "position": "Full Stack Developer",
+            "compony": "Eduskills Academy",
+            "des": "Worked on Python Project",
+            "work": [
+                "Develop mini Chatbots",
+                "Worked with apis",
+                "Develop micro Services"
+            ]
+        }
+    ],
+    "terminal": {
+        "whoami": "Uditya Patel, Software Developer",
+        "skill": [
+            "Python, JavaScript, Flask",
+            "HTML, CSS, AI/ML Basics"
+        ],
+        "stat": [
+            "5+ projects built",
+            "Strong problem-solving skills",
+            "Active learner"
+        ],
+        "hire-me": [
+            "✓ Portfolio available",
+            "✓ GitHub projects ready",
+            "✓ Available for opportunities"
+        ],
+        "animation-tag": [
+            "open resume.pdf",
+            "contact --email",
+            "start -career"
+        ]
+    },
+    "let-work": {
+        "des": "I am open to internships, freelance work, and entry-level opportunities to apply and grow my development skills.",
+        "email": "pateluditya2004@gmail.com"
+    },
+    "resume": "./resume/resume.pdf"
+}

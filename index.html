@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Portfolio — Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/common.css">
+
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text">Initializing Portfolio</div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+  <div class="loader-text" style="opacity:.4;font-size:10px;margin-top:4px">PORTFOLIO.DEV — 2026</div>
+</div>
+
+<!-- CURSOR -->
+<div class="cur" id="cur"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo-cell">
+      <span class="nav-logo-bracket">[</span>
+      <a href="#hero" class="nav-logo-name" id="nav-name">—</a>
+      <span class="nav-logo-bracket">]</span>
+    </div>
+    <div class="nav-links">
+      <a href="#about"        class="nav-link">About</a>
+      <a href="#work"         class="nav-link">Work</a>
+      <a href="#experience"   class="nav-link">Career</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#certificates" class="nav-link">Certificates</a>
+      <a href="#contact"      class="nav-link">Contact</a>
+    </div>
+    <div class="nav-status">
+      <div class="status-dot"></div>
+      Available for hire
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ──────────────────────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-left rv">
+    <div>
+      <div class="hero-index">[ 001 ] — INTRODUCTION</div>
+      <h1 class="hero-name">
+        <span id="hero-first">—</span><br/>
+        <em id="hero-last">—</em>
+      </h1>
+      <div class="hero-role-row">
+        <div class="hero-dash"></div>
+        <span class="hero-role" id="hero-role">—</span>
+      </div>
+      <p class="hero-body" id="hero-body">—</p>
+    </div>
+    <div class="hero-actions">
+      <a href="#work"    class="hero-btn hero-btn-primary">View Projects</a>
+      <a href="#contact" class="hero-btn hero-btn-secondary">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="hero-right rv" style="transition-delay:.15s">
+    <div class="hero-right-top">
+      <pre class="ascii-box" id="ascii-box">
+┌─────────────────────────────────┐
+│  SYSTEM STATUS: OPERATIONAL     │
+│  MODE: OPEN TO OPPORTUNITIES    │
+│  LOCATION: —                    │
+└─────────────────────────────────┘
+</pre>
+      <div class="stat-grid">
+        <div class="stat-cell">
+          <div class="stat-val" id="stat-experience">—</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-val" id="stat-projects">—</div>
+          <div class="stat-label">Projects Shipped</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-val">20+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-cell">
+          <div class="stat-val">99%</div>
+          <div class="stat-label">Uptime SLA</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right-bottom">
+      <div class="tag-list" id="hero-tags"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ─────────────────────────────────────────────────────────────── -->
+<section id="about">
+  <div class="about-sidebar rv">
+    <div class="sidebar-block">
+      <div class="sidebar-block-label">Location</div>
+      <p id="sidebar-location">—</p>
+    </div>
+    <div class="sidebar-block">
+      <div class="sidebar-block-label">Education</div>
+      <p id="sidebar-education">—</p>
+    </div>
+    <div class="sidebar-block">
+      <div class="sidebar-block-label">Languages</div>
+      <p id="sidebar-languages">—</p>
+    </div>
+    <div class="sidebar-block sidebar-contact">
+      <div class="sidebar-block-label">Contact</div>
+      <a id="sidebar-email-link" href="#">
+        <span>✉</span> Email
+      </a>
+      <a id="sidebar-linkedin-link" href="#" target="_blank" rel="noopener">
+        <span>↗</span> LinkedIn
+      </a>
+      <a id="sidebar-github-link" href="#" target="_blank" rel="noopener">
+        <span>⌥</span> GitHub
+      </a>
+    </div>
+  </div>
+
+  <div class="about-main rv" style="transition-delay:.1s">
+    <div class="s-label">[ 002 ] — About</div>
+    <h2 class="s-title">Developer &amp; <strong>Problem Solver</strong></h2>
+    <p class="about-text">
+      <span id="about-para1">—</span>
+      <br/><br/>
+      <span id="about-para2">—</span>
+    </p>
+
+    <table class="skills-table">
+      <thead>
+        <tr>
+          <th>Skill</th><th>Level</th><th>Proficiency</th><th>Years</th>
+        </tr>
+      </thead>
+      <tbody id="skills-tbody">
+        <!-- populated by portfolio.js -->
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── WORK (GitHub API) ─────────────────────────────────────────────────── -->
+<section id="work">
+  <div class="work-header rv">
+    <div>
+      <div class="s-label">[ 003 ] — Projects</div>
+      <h2 class="s-title">Selected <strong>Work</strong></h2>
+    </div>
+    <span class="work-count" id="work-count">— PROJECTS</span>
+  </div>
+  <div class="work-list" id="work-list">
+    <div id="work-loading" style="padding:60px;color:var(--dim);font-size:13px;letter-spacing:1px">
+      Loading projects<span class="t-cursor"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ────────────────────────────────────────────────────────── -->
+<section id="experience">
+  <div class="exp-left rv">
+    <div class="s-label">[ 004 ] — Experience</div>
+    <h2 class="s-title" style="margin-bottom:48px">Career <strong>History</strong></h2>
+    <div id="career-list">
+      <!-- populated by portfolio.js -->
+    </div>
+  </div>
+
+  <div class="exp-right rv" style="transition-delay:.15s">
+    <div class="s-label" style="margin-bottom:40px">[ TERMINAL ]</div>
+    <div class="terminal">
+      <div class="terminal-bar">
+        <div class="t-dot"></div><div class="t-dot"></div><div class="t-dot"></div>
+        <span style="margin-left:12px;font-size:10px;color:var(--dim);letter-spacing:2px">portfolio ~ $</span>
+      </div>
+
+      <div><span class="t-prompt">→ </span><span class="t-cmd">whoami</span></div>
+      <div class="t-output" id="t-whoami">—</div>
+      <br/>
+
+      <div><span class="t-prompt">→ </span><span class="t-cmd">skills --top</span></div>
+      <div id="t-skills"></div>
+      <br/>
+
+      <div><span class="t-prompt">→ </span><span class="t-cmd">git log --stat</span></div>
+      <div id="t-stat"></div>
+      <br/>
+
+      <div><span class="t-prompt">→ </span><span class="t-cmd">npm run hire-me</span></div>
+      <div id="t-hireme"></div>
+      <br/>
+
+      <div><span class="t-prompt">→ </span><span class="t-cmd" id="typing-cmd"></span><span class="t-cursor"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ACHIEVEMENTS ──────────────────────────────────────────────────────── -->
+<section id="achievements">
+  <div class="ach-header rv">
+    <div>
+      <div class="s-label">[ 005 ] — Achievements</div>
+      <h2 class="s-title">Research &amp; <strong>Intellectual Property</strong></h2>
+    </div>
+    <div class="ach-tabs" id="ach-tabs">
+      <button class="ach-tab active" data-type="all">All</button>
+      <button class="ach-tab" data-type="patent">Patents</button>
+      <button class="ach-tab" data-type="copyright">Copyrights</button>
+      <button class="ach-tab" data-type="research">Research</button>
+    </div>
+  </div>
+  <div id="ach-list">
+    <div style="padding:60px;color:var(--dim)">Loading achievements<span class="t-cursor"></span></div>
+  </div>
+</section>
+
+<!-- ── CERTIFICATES ───────────────────────────────────────────────────────── -->
+<section id="certificates">
+  <div class="cert-header rv">
+    <div>
+      <div class="s-label">[ 006 ] — Certificates</div>
+      <h2 class="s-title">Verified <strong>Credentials</strong></h2>
+    </div>
+    <span class="work-count" id="cert-count">— CERTIFICATES</span>
+  </div>
+  <div class="cert-grid" id="cert-grid">
+    <div style="padding:60px;color:var(--dim);grid-column:1/-1">Loading certificates<span class="t-cursor"></span></div>
+  </div>
+</section>
+
+<!-- PDF VIEWER MODAL -->
+<div class="pdf-modal" id="pdf-modal">
+  <div class="pdf-backdrop" id="pdf-backdrop"></div>
+  <div class="pdf-dialog">
+    <div class="pdf-dialog-bar">
+      <span class="pdf-dialog-title" id="pdf-modal-title">Certificate</span>
+      <div class="pdf-dialog-actions">
+        <a href="#" id="pdf-download" class="pdf-dialog-dl" download>↓ Download</a>
+        <button class="pdf-close" id="pdf-close">✕</button>
+      </div>
+    </div>
+    <iframe class="pdf-frame" id="pdf-frame" title="Certificate PDF"></iframe>
+  </div>
+</div>
+
+<!-- ── CONTACT ───────────────────────────────────────────────────────────── -->
+<section id="contact">
+  <div class="contact-left rv">
+    <div>
+      <div class="s-label">[ 007 ] — Contact</div>
+      <h2 class="contact-big">Let's work<br/><strong>together.</strong></h2>
+      <p class="contact-sub" id="contact-desc">—</p>
+    </div>
+    <a href="#" id="contact-cta" class="contact-cta">Send a Message →</a>
+  </div>
+
+  <div class="contact-right rv" style="transition-delay:.1s">
+    <a href="#" id="contact-email-row" class="contact-row">
+      <div class="contact-row-icon">✉</div>
+      <div class="contact-row-info">
+        <strong>Email</strong>
+        <span id="contact-email-text">—</span>
+      </div>
+      <div class="contact-row-arrow">→</div>
+    </a>
+    <a href="#" id="contact-linkedin-link" target="_blank" rel="noopener" class="contact-row">
+      <div class="contact-row-icon">in</div>
+      <div class="contact-row-info">
+        <strong>LinkedIn</strong>
+        <span id="contact-linkedin-text">—</span>
+      </div>
+      <div class="contact-row-arrow">→</div>
+    </a>
+    <a href="#" id="contact-github-link" target="_blank" rel="noopener" class="contact-row">
+      <div class="contact-row-icon">⌥</div>
+      <div class="contact-row-info">
+        <strong>GitHub</strong>
+        <span id="contact-github-text">—</span>
+      </div>
+      <div class="contact-row-arrow">→</div>
+    </a>
+    <a href="#" id="contact-resume-link" class="contact-row">
+      <div class="contact-row-icon">↓</div>
+      <div class="contact-row-info">
+        <strong>Resume</strong>
+        <span>Download PDF</span>
+      </div>
+      <div class="contact-row-arrow">→</div>
+    </a>
+  </div>
+</section>
+
+<!-- ── FOOTER ────────────────────────────────────────────────────────────── -->
+<footer>
+  <div class="footer-l">Designed &amp; developed by <span id="footer-name">—</span> — 2026</div>
+  <div class="footer-r">[ Open to work ]</div>
+</footer>
+
+<!-- ── Scripts ───────────────────────────────────────────────────────────── -->
+<!-- Loader -->
+<script src="./js/loader.js"></script>
+<script src="./js/scroll_reveal.js"></script>
+<script src="./js/put_navigation_on_section.js"></script>
+<script src="./js/cursor.js"></script>
+
+<!-- ── PROJECT SECTION — reads project.json + tree.json ──────────────────── -->
+<script src="./js/load_project.js"></script>
+<!-- Loads info.json → populates all sections (hero, about, contact …) -->
+<script src="./js/render.js"></script>
+<!-- ── ACHIEVEMENTS — reads achievement.json ──────────────────────────────── -->
+<script src="./js/archivement.js"></script>
+<!-- ── CERTIFICATES — reads certificate.json ─────────────────────────────── -->
+<script src="./js/certificate.js"></script>
+</body>
+</html>

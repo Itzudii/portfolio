@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Claude with the Anthropic API",
+    "issuer": "Anthropic",
+    "date": "March 2026",
+    "src": "certs/Certificate(Claude_API).pdf"  
+  },
+  {
+    "title": "india AI Impact buildathon",
+    "issuer": "AI Impact Summit",
+    "date": "feb 2026",
+    "src": "certs/Certificate(india_AI_Impact_buildathon).pdf"  
+  },
+  {
+    "title": "Introduction to AI and Machine Learning on Google Cloud",
+    "issuer": "Google Cloud",
+    "date": "sep 2024",
+    "src": "certs/Certificate(Introduction_to_AI&ML_on_google_cloud).pdf"  
+  },
+  {
+    "title": "Model_Context_Protocol:Advanced Topic",
+    "issuer": "Anthropic",
+    "date": "march 2026",
+    "src": "certs/Certificate(Model_Context_Protocol)Adv.pdf"  
+  },
+  {
+    "title": "JSnake Game Development Kit",
+    "issuer": "Intellectual Property India",
+    "date": "oct 2025",
+    "src": "certs/Copyright ROC(JS Based Game Development Kit).pdf"  
+  },
+  {
+    "title": "Stock Prediction Using  Machine Learning And LSTM ",
+    "issuer": "JETIR",
+    "date": "july 2024",
+    "src": "certs/Research_Paper(Stock_Prediction_Using_ML&LSTM).pdf"  
+  },
+  {
+    "title": "Internship",
+    "issuer": "Eduskill",
+    "date": "dec 2025",
+    "src": "certs/internship(Python_Fullstack_Developer).pdf"  
+  },
+  {
+    "title": "Internship",
+    "issuer": "CodeAlpha",
+    "date": "july 2025",
+    "src": "certs/Internship(code_alpha).pdf"  
+  },
+  {
+    "title": "AWS Workshop",
+    "issuer": "Sage University",
+    "date": "sep 2024",
+    "src": "certs/Certificate(AWS).pdf"  
+  }
+]

@@ -1,0 +1,808 @@
+{
+    "Car-Rental-Website-Flask-python": {
+        "language": {
+            "HTML": 24195,
+            "CSS": 5765,
+            "Python": 5501
+        },
+        "tree": {
+            "README.md": null,
+            "app.py": null,
+            "requirements.txt": null,
+            "static": {
+                "car_image": {
+                    "Ertiga.png": null,
+                    "Kia_Carens.png": null,
+                    "Mahindra_XUV_700.png": null,
+                    "Maruti_Baleno.png": null,
+                    "Tata_Nexon.png": null,
+                    "alto.jpeg": null,
+                    "hyundai_elite_i20.png": null,
+                    "hyundai_verna.png": null
+                },
+                "css": {
+                    "dashboard.css": null,
+                    "email_verification.css": null
+                },
+                "remove_logo.png": null,
+                "remove_logo2.png": null,
+                "travel.jpg": null,
+                "wallpaper.jpg": null
+            },
+            "templates": {
+                "dashboard.html": null,
+                "email_verification.html": null,
+                "otp.html": null,
+                "payment.html": null,
+                "thank.html": null
+            },
+            "vercel.json": null
+        },
+        "commits": {
+            "main": [
+                {
+                    "sha": "a5b08289aba6a93aa5d26bd0ff7c3345922db460",
+                    "date": "2024-09-18T17:16:50Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "e777e6c479be8d69928e9551bde5f74b6454bd2b",
+                    "date": "2024-09-13T10:25:05Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "3dae620ca42aef085f1f80a94f47f74c336f8cbd",
+                    "date": "2024-06-26T17:20:53Z",
+                    "message": "Update README.md"
+                },
+                {
+                    "sha": "af1184babaf1e89fd7543e2e8311b12fb805b9d1",
+                    "date": "2024-06-26T10:41:09Z",
+                    "message": "Update README.md"
+                },
+                {
+                    "sha": "7ba4de52ab2314c6e4dec51213b8e64ff2612f31",
+                    "date": "2024-06-26T10:40:27Z",
+                    "message": "Update README.md"
+                },
+                {
+                    "sha": "8f9592c65a2d391f8829f913f2383f4fad029e54",
+                    "date": "2024-06-26T10:36:37Z",
+                    "message": "Update README.md"
+                },
+                {
+                    "sha": "b0ada2fa1d76e33c62661428d9f7d7b1b6f2421d",
+                    "date": "2024-06-26T10:34:12Z",
+                    "message": "Create README.md"
+                },
+                {
+                    "sha": "a61b1d5d8edd94c078b4c20c81a4ced863d312d1",
+                    "date": "2024-06-06T19:15:15Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "3353f180e531a1b9aa21d9a0a1959e7a3c5bbd13",
+                    "date": "2024-06-06T18:39:34Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "91e3d5aa583993e912285c04053d921084209b74",
+                    "date": "2024-06-06T18:33:50Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "0fbfdde4b15a3267e28083e30eeb11edca598521",
+                    "date": "2024-06-06T18:22:41Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "cc5ea5eeb1bd728bb0d66cd1d3ba9292ab4636b9",
+                    "date": "2024-06-06T18:14:19Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "764d75a51978a0c32e4b73f3ec37319e027c6fe8",
+                    "date": "2024-06-06T14:41:20Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "03892096d6e553c65f2caef3812c0d79603d7617",
+                    "date": "2024-06-06T14:30:48Z",
+                    "message": "Update dashboard.html"
+                },
+                {
+                    "sha": "268c7b271536ff4b9de76b02d59c255851ba0d08",
+                    "date": "2024-06-06T14:02:58Z",
+                    "message": "Add files via upload"
+                },
+                {
+                    "sha": "b75b44a866e4d10c27da3d7cdd32ff26b7ea2547",
+                    "date": "2024-06-04T14:27:22Z",
+                    "message": "Update app.py"
+                },
+                {
+                    "sha": "2b68b1bc3647a8d5be00a3800cb6f062128c16e7",
+                    "date": "2024-06-04T14:19:48Z",
+                    "message": "Add files via upload"
+                },
+                {
+                    "sha": "36a292b272bcaff42ec0749c6f1d10cf1048815c",
+                    "date": "2024-06-03T14:46:53Z",
+                    "message": "payment.html"
+                },
+                {
+                    "sha": "7fc3348310dac2af3d9ff80ddd91cdf2e4a4d8cd",
+                    "date": "2024-06-03T14:44:34Z",
+                    "message": "Add files via upload"
+                },
+                {
+                    "sha": "325737eefa9ecd01db76534930d872e93dd6e657",
+                    "date": "2024-06-03T14:00:04Z",
+                    "message": "Add files via upload"
+                }
+            ]
+        }
+    },
+    "CortexFS": {
+        "language": {
+            "Python": 111950,
+            "JavaScript": 64705,
+            "HTML": 43816,
+            "CSS": 38265,
+            "Batchfile": 27
+        },
+        "tree": {
+            "FS": {
+                "README.md": null,
+                "api.py": null,
+                "cli.py": null,
+                "controller.py": null,
+                "dependencies": {
+                    "__pycache__": {
+                        "dict.cpython-313.pyc": null,
+                        "fileReader.cpython-313.pyc": null,
+                        "log_config.cpython-313.pyc": null,
+                        "logmanger.cpython-313.pyc": null,
+                        "stack.cpython-313.pyc": null,
+                        "storage.cpython-313.pyc": null,
+                        "tree.cpython-313.pyc": null,
+                        "useful.cpython-313.pyc": null,
+                        "vector.cpython-313.pyc": null
+                    },
+                    "dict.py": null,
+                    "fileReader.py": null,
+                    "icon.py": null,
+                    "log_config.py": null,
+                    "logmanger.py": null,
+                    "stack.py": null,
+                    "storage.py": null,
+                    "tree.py": null,
+                    "useful.py": null,
+                    "vector.py": null
+                },
+                "frontend": {
+                    "cli.html": null,
+                    "css": {
+                        "app_container_and_webkit.css": null,
+                        "background_particle.css": null,
+                        "body.css": null,
+                        "cli.css": null,
+                        "context_menu.css": null,
+                        "details_panel.css": null,
+                        "global.css": null,
+                        "grid_and_list_view.css": null,
+                        "menu_bar.css": null,
+                        "rename-styles.css": null,
+                        "responsive.css": null,
+                        "root.css": null,
+                        "side_bar.css": null,
+                        "title_bar.css": null,
+                        "tool_bar.css": null
+                    },
+                    "file-search.html": null,
+                    "font": {
+                        "font.woff2": null,
+                        "goo.css": null
+                    },
+                    "img": {
+                        "logo.jpeg": null,
+                        "logo_transparent.png": null
+                    },
+                    "js": {
+                        "cli.js": null,
+                        "rename-functionality.js": null,
+                        "script-main.js": null,
+                        "script.js": null,
+                        "search.js": null
+                    },
+                    "main-window.html": null
+                },
+                "fsmanager.py": null,
+                "requirements.txt": null,
+                "tag.py": null,
+                "task.py": null,
+                "watcher": {
+                    "__pycache__": {
+                        "config.cpython-313.pyc": null,
+                        "event_logger.cpython-313.pyc": null
+                    },
+                    "config.py": null,
+                    "event_logger.py": null,
+                    "fs_startup_sync.py": null,
+                    "internal_tree.py": null,
+                    "run_watcher.bat": null,
+                    "watcher_service.py": null
+                }
+            },
+            "LICENSE": null,
+            "README.md": null,
+            "images": {
+                "control_flow.png": null,
+                "logo.jpeg": null,
+                "logo_transparent.png": null,
+                "new2.drawio": null
+            }
+        },
+        "commits": {
+            "main": [
+                {
+                    "sha": "8a62efb017f17a843ee1873ca202b18d4507ac5e",
+                    "date": "2026-03-02T17:00:37Z",
+                    "message": "Update README.md"
+                },
+                {
+                    "sha": "feaee40cc85242fbf1eba6f6c4b5a486f6ca58eb",
+                    "date": "2026-03-02T16:58:34Z",
+                    "message": "inital commit"
+                },
+                {
+                    "sha": "5c8a1502d046b333134c0a1569285a9456c17b5c",
+                    "date": "2026-03-02T13:24:24Z",
+                    "message": "inital commit"
+                }
+            ]
+        }
+    },
+    "CryptoAbritage-python-": {
+        "language": {
+            "Python": 142071,
+            "JavaScript": 7385,
+            "HTML": 4553,
+            "Shell": 2375,
+            "Dockerfile": 591
+        },
+        "tree": {
+            ".gitignore": null,
+            "README.md": null,
+            "binanceMeta.py": null,
+            "bybitMeta.py": null,
+            "constants.py": null,
+            "decision.py": null,
+            "entities.py": null,
+            "knowleded": null,
+            "main.py": null,
+            "node.py": null,
+            "requirements.txt": null,
+            "testnet.py": null,
+            "triangle": {
+                ".env.example": null,
+                ".gitignore": null,
+                "Dockerfile": null,
+                "README.md": null,
+                "backtest.py": null,
+                "bot.py": null,
+                "calculator.py": null,
+                "config.py": null,
+                "database.py": null,
+                "docker-compose.yml": null,
+                "docs": {
+                    "FILELIST.md": null,
+                    "GUIDE.md": null,
+                    "PROJECT_STRUCTURE.md": null,
+                    "PROJECT_SUMMERY.md": null,
+                    "QUICKSTART.md": null,
+                    "RISKMANAGEMENT.md": null,
+                    "frontexp.md": null,
+                    "managedrisk.md": null
+                },
+                "exchange.py": null,
+                "liquidity.py": null,
+                "logger.py": null,
+                "main.py": null,
+                "market_data.py": null,
+                "notifications.py": null,
+                "requirements.py": null,
+                "requirements.txt": null,
+                "risk.py": null,
+                "setup.sh": null,
+                "tests": {
+                    "test_calculator.py": null
+                },
+                "trader.py": null,
+                "web": {
+                    "api.py": null,
+                    "static": {
+                        "app.js": null,
+                        "index.html": null
+                    }
+                }
+            },
+            "uditya.py": null,
+            "wsocket.py": null
+        },
+        "commits": {
+            "main": [
+                {
+                    "sha": "877cb0a3703de45ebe87492551bd4b38badf2199",
+                    "date": "2025-10-08T15:10:56Z",
+                    "message": "fix conflict"
+                },
+                {
+                    "sha": "64cfd63b2001a66ed9b455215082ee989a881766",
+                    "date": "2025-10-08T15:06:26Z",
+                    "message": "updated"
+                },
+                {
+                    "sha": "e4868a3b751fe822d8443b8d5b7c766ede50a63b",
+                    "date": "2025-10-08T12:39:37Z",
+                    "message": "APPLIED RISK MANGEMENT AND TESTNET READY CONFIG"
+                },
+                {
+                    "sha": "2f7e4ecf2f9d2d1d45b1c163dcb08ac6f97a6d93",
+                    "date": "2025-10-06T09:28:22Z",
+                    "message": "TRIANGLEADDED"
+                },
+                {
+                    "sha": "76398253e78c0afc82210116d683ce4c8629eaef",
+                    "date": "2025-09-17T16:36:23Z",
+                    "message": "Delete uditya.py"
+                },
+                {
+                    "sha": "4920b9b16e9b617f0af61ba1a4ee24fa12d558e6",
+                    "date": "2025-09-17T15:52:39Z",
+                    "message": "Initial commit"
+                },
+                {
+                    "sha": "9135b0e7b3080bb4562440e19600b1944149dcf8",
+                    "date": "2025-09-17T15:54:30Z",
+                    "message": "Initial commit"
+                }
+            ]
+        }
+    },
+    "demo": {
+        "language": {
+            "Python": 103608,
+            "JavaScript": 62095,
+            "HTML": 61811,
+            "CSS": 50899,
+            "Batchfile": 26
+        },
+        "tree": {
+            ".gitignore": null,
+            "Chatbot": {
+                "bot.py": null,
+                "mcp.py": null
+            },
+            "README.md": null,
+            "Scaffold": {
+                "parser.py": null
+            },
+            "api.py": null,
+            "cli.py": null,
+            "controller.py": null,
+            "demo_d": {
+                "example.txt": null,
+                "grrg": {
+                    "New_File.txt": null
+                },
+                "newfile.txt": null,
+                "output_project(1)": {
+                    "Templete": {
+                        "index.html": null
+                    }
+                },
+                "output_project(3)": {
+                    "app.py": null,
+                    "css": {
+                        "index.css": null
+                    },
+                    "html": {
+                        "index.html": null
+                    },
+                    "js": {
+                        "jss": {
+                            "main.js": null
+                        },
+                        "second.php": null
+                    }
+                },
+                "output_project": {
+                    "app.py": null,
+                    "css": {
+                        "index.css": null
+                    },
+                    "html": {
+                        "index.html": null
+                    },
+                    "js": {
+                        "jss": {
+                            "main.js": null
+                        },
+                        "second.js": null
+                    }
+                },
+                "project.fstree": null
+            },
+            "dependencies": {
+                "dict.py": null,
+                "fileReader.py": null,
+                "helperfuncUtils.py": null,
+                "icon.py": null,
+                "log_config.py": null,
+                "logmanger.py": null,
+                "stack.py": null,
+                "storage.py": null,
+                "tree.py": null,
+                "vector.py": null
+            },
+            "frontend": {
+                "chatbot.html": null,
+                "cli.html": null,
+                "css": {
+                    "app_container_and_webkit.css": null,
+                    "background_particle.css": null,
+                    "body.css": null,
+                    "chatbot.css": null,
+                    "cli.css": null,
+                    "context_menu.css": null,
+                    "details_panel.css": null,
+                    "global.css": null,
+                    "grid_and_list_view.css": null,
+                    "menu_bar.css": null,
+                    "rename-styles.css": null,
+                    "responsive.css": null,
+                    "root.css": null,
+                    "side_bar.css": null,
+                    "title_bar.css": null,
+                    "tool_bar.css": null
+                },
+                "file-search.html": null,
+                "font": {
+                    "font.woff2": null,
+                    "goo.css": null
+                },
+                "icons": {
+                    "files": {
+                        "adobe-illustrator.png": null,
+                        "apk.png": null,
+                        "css.png": null,
+                        "disc.png": null,
+                        "doc.png": null,
+                        "excel.png": null,
+                        "font-file.png": null,
+                        "image.png": null,
+                        "iso.png": null,
+                        "javascript.png": null,
+                        "js-file.png": null,
+                        "mail.png": null,
+                        "mp3.png": null,
+                        "music.png": null,
+                        "pdf.png": null,
+                        "php.png": null,
+                        "powerpoint.png": null,
+                        "ppt.png": null,
+                        "psd.png": null,
+                        "py.png": null,
+                        "record.png": null,
+                        "sql.png": null,
+                        "svg.png": null,
+                        "text.png": null,
+                        "ttf.png": null,
+                        "txt.png": null,
+                        "vector.png": null,
+                        "video.png": null,
+                        "word.png": null,
+                        "xls.png": null,
+                        "zip.png": null
+                    },
+                    "folders": {
+                        "folder-lock.png": null,
+                        "folder-modified.png": null,
+                        "folder.png": null
+                    }
+                },
+                "img": {
+                    "logo.jpeg": null,
+                    "logo_transparent.png": null
+                },
+                "js": {
+                    "rename-functionality.js": null,
+                    "script-main.js": null,
+                    "script.js": null,
+                    "search.js": null
+                },
+                "main-window.html": null
+            },
+            "fsmanager.py": null,
+            "output_project(3)": {
+                "app.py": null,
+                "css": {
+                    "index.css": null
+                },
+                "html": {
+                    "index.html": null
+                },
+                "js": {
+                    "jss": {
+                        "main.js": null
+                    },
+                    "second.js": null
+                }
+            },
+            "output_project": {
+                "app.py": null,
+                "css": {
+                    "index.css": null
+                },
+                "html": {
+                    "index.html": null
+                },
+                "js": {
+                    "jss": {
+                        "main.js": null
+                    },
+                    "second.js": null
+                }
+            },
+            "requirements.txt": null,
+            "tag.py": null,
+            "task.py": null,
+            "watcher": {
+                "config.py": null,
+                "event_logger.py": null,
+                "fs_startup_sync.py": null,
+                "internal_tree.py": null,
+                "run_watcher.bat": null,
+                "watcher_service.py": null
+            }
+        },
+        "commits": {
+            "main": [
+                {
+                    "sha": "80657d1267d466bcdaffc9ebe4556997cba214e5",
+                    "date": "2026-03-12T17:34:18Z",
+                    "message": "add chatbot frist time it not add"
+                },
+                {
+                    "sha": "492acd94d543545eb9510d620c0910e08062ebac",
+                    "date": "2026-03-12T17:18:56Z",
+                    "message": "add chatbot"
+                },
+                {
+                    "sha": "9ab8d8e911d61fb1b02ea68bb0a27fab3751d15f",
+                    "date": "2026-03-12T12:08:18Z",
+                    "message": "add scaffold"
+                },
+                {
+                    "sha": "647ad6361138c3b3f5fa8103e700500b36c356a1",
+                    "date": "2026-03-11T16:53:30Z",
+                    "message": "formate api return statement"
+                },
+                {
+                    "sha": "ad7fa1bd4d6edd3538ebdd2bba266902d39be28c",
+                    "date": "2026-03-11T09:51:53Z",
+                    "message": "manage imports"
+                },
+                {
+                    "sha": "708f4e48b8927aa8e3212c83f4f0d96c9ccc5b21",
+                    "date": "2026-03-11T09:21:21Z",
+                    "message": "add staticmethod keyword"
+                },
+                {
+                    "sha": "54d3adc9549c42263c2c9962ad285751636c53fa",
+                    "date": "2026-03-10T17:31:34Z",
+                    "message": "maintain structure of tree"
+                },
+                {
+                    "sha": "8f0a3c47a685eb2134da34bc9c9c6e1451bf52ff",
+                    "date": "2026-03-10T17:29:54Z",
+                    "message": "cli add help and implement islist bool"
+                },
+                {
+                    "sha": "07a083f75007e7ad1397ecd1b493b1086918c5c3",
+                    "date": "2026-03-10T15:28:14Z",
+                    "message": "Remove log from tracking"
+                },
+                {
+                    "sha": "b99736e3ace951efa48084cc54d6aaa125139461",
+                    "date": "2026-03-10T15:27:00Z",
+                    "message": "Remove .database from tracking"
+                },
+                {
+                    "sha": "73ea2ea51dbb5adadb1c1c2fe4488f1e213bc18e",
+                    "date": "2026-03-10T15:23:11Z",
+                    "message": "optimization"
+                },
+                {
+                    "sha": "6f0a97ea742f00f8aa03dad0c507b80d29b4c107",
+                    "date": "2026-03-10T13:58:39Z",
+                    "message": "intial commit"
+                }
+            ]
+        }
+    },
+    "filemanagementSystem": {
+        "language": {
+            "Jupyter Notebook": 11987735,
+            "Python": 244014
+        },
+        "tree": {
+            "FS": {
+                "__pycache__": {
+                    "constant.cpython-313.pyc": null,
+                    "cusq.cpython-313.pyc": null,
+                    "extSearch.cpython-313.pyc": null,
+                    "fileReader.cpython-313.pyc": null,
+                    "hash.cpython-313.pyc": null,
+                    "prifixSearch.cpython-313.pyc": null,
+                    "stack.cpython-313.pyc": null,
+                    "useful.cpython-313.pyc": null
+                },
+                "constant.py": null,
+                "cusq.py": null,
+                "extSearch.py": null,
+                "fileReader.py": null,
+                "hash.py": null,
+                "prifixSearch.py": null,
+                "stack.py": null,
+                "useful.py": null
+            },
+            "FSCLI.py": null,
+            "FSTags.py": null,
+            "FSgui.py": null,
+            "FSlog_config.py": null,
+            "FSmain.py": null,
+            "FSrunner.py": null,
+            "FSvector.py": null,
+            "copyFS": {
+                "FSEsearch.py": null,
+                "FSPsearch.py": null,
+                "FSTags.py": null,
+                "FS_fileReader.py": null,
+                "FSconstant.py": null,
+                "FShash.py": null,
+                "FSmain.py": null,
+                "FSstack.py": null,
+                "FSuseful.py": null,
+                "FSvector.py": null,
+                "change_d.py": null,
+                "examin_room.ipynb": null,
+                "fledffd.py": null,
+                "new.py": null,
+                "new_trie.py": null,
+                "tempCodeRunnerFile.py": null,
+                "test.ipynb": null,
+                "testnew.pdf": null,
+                "uditya.txt": null,
+                "znew.py": null
+            },
+            "gui.py": null,
+            "modelinfo.txt": null,
+            "requirements.txt": null
+        },
+        "commits": {
+            "main": [
+                {
+                    "sha": "e740883f8a411a73c5cdd33a16c537884a15bd6f",
+                    "date": "2026-01-26T17:28:44Z",
+                    "message": "gui add"
+                },
+                {
+                    "sha": "4e9e9134cd4d52b18ba6b08778851ff1b813cfe0",
+                    "date": "2026-01-26T13:18:10Z",
+                    "message": "IC"
+                },
+                {
+                    "sha": "b2bcd528a2dcd9b0e9264e52b412f82e4882cf99",
+                    "date": "2026-01-25T10:24:22Z",
+                    "message": "logger added"
+                },
+                {
+                    "sha": "1ba3233b8275c846151470997cf1fd69bec0a4d7",
+                    "date": "2026-01-24T14:47:35Z",
+                    "message": "latest_commit"
+                },
+                {
+                    "sha": "ae05e19462f240b7a70e385a194eb4487f1ab03d",
+                    "date": "2026-01-18T17:11:06Z",
+                    "message": "IC"
+                },
+                {
+                    "sha": "d107ca7a5f4bd020273cefb55e042c9f24d13cdd",
+                    "date": "2026-01-18T17:07:28Z",
+                    "message": "First_commit"
+                }
+            ]
+        }
+    },
+    "TRIPYY": {
+        "language": {
+            "HTML": 50999,
+            "Python": 11162,
+            "JavaScript": 10221,
+            "CSS": 5910
+        },
+        "tree": {
+            ".gitignore": null,
+            "README.md": null,
+            "app.py": null,
+            "coord.py": null,
+            "custom.py": null,
+            "requirements.txt": null,
+            "static": {
+                "bootstrap": {
+                    "bootstrap.min.css": null,
+                    "new.html": null
+                },
+                "css": {
+                    "indexStyle.css": null,
+                    "loginStyle.css": null,
+                    "mapStyle.css": null
+                },
+                "img": {
+                    "bg": {
+                        "bg-2.jpg": null,
+                        "bg.jpg": null,
+                        "trees.png": null,
+                        "valley.jpg": null
+                    },
+                    "coin": {
+                        "geoCoin_r.webp": null,
+                        "mapCoin_r.webp": null,
+                        "mapcut_r.webp": null,
+                        "placeCoin_r.webp": null,
+                        "weatherCoin_r.webp": null
+                    },
+                    "entity": {
+                        "baloon.png": null,
+                        "btn-hand.png": null,
+                        "dot_r.png": null,
+                        "image.png": null
+                    },
+                    "guide.png": null,
+                    "icon": {
+                        "100.png": null,
+                        "50.png": null
+                    }
+                },
+                "js": {
+                    "mapScript.js": null
+                }
+            },
+            "templates": {
+                "dashboard.html": null,
+                "guide.html": null,
+                "index.html": null,
+                "login.html": null,
+                "mapMain.html": null,
+                "otp.html": null,
+                "signup.html": null
+            }
+        },
+        "commits": {
+            "main": [
+                {
+                    "sha": "7ae7e0a66fa1290e2c4d0084d3b4535a37d86427",
+                    "date": "2025-06-01T19:27:34Z",
+                    "message": "Initial commit"
+                },
+                {
+                    "sha": "583a25686f05c9f7bf9dc378335d7a2b7fe46605",
+                    "date": "2025-06-01T18:31:30Z",
+                    "message": "Initial commit"
+                }
+            ]
+        }
+    }
+}
