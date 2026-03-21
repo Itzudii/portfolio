@@ -108,6 +108,59 @@
       document.getElementById('not-found-msg').textContent = msg;
       document.title = 'Itzudii — Repository Not Found';
     }
+    // ── TOPICS — reads topics from the same project.json entry ───────────────
+  
+    // project.js fetches project.json and sets window._repoData or similar;
+    // we poll briefly then also independently load if needed.
+    function renderTopics(topics) {
+      const row = document.getElementById('topics-row');
+      if (!row) return;
+      if (!topics || !topics.length) {
+        row.innerHTML = '<span style="color:var(--dim);font-size:11px">No topics</span>';
+        return;
+      }
+      row.innerHTML = topics.map(t =>
+        `<span class="topic-badge"># ${t}</span>`
+      ).join('');
+    }
+
+    // Strategy 1: if project.js exposes the repo object, use it
+    // function tryFromGlobal() {
+    //   // common patterns project.js might use
+    //   const repo = window._currentRepo || window._repoData || window._repo;
+    //   if (repo && Array.isArray(repo.topics)) {
+    //     renderTopics(repo.topics);
+    //     return true;
+    //   }
+    //   return false;
+    // }
+
+    // Strategy 2: fetch project.json ourselves using the same hash logic
+    async function fetchTopics(resData) {
+      // if (tryFromGlobal()) return;
+      try {
+        const hash = (location.hash || '').replace('#', '').trim();
+        // const res  = await fetch('./project.json');
+        const list = resData;
+        const entry = Array.isArray(list)
+          ? list.find(p => p.name === hash || p.full_name === hash)
+          : list;
+        if (entry) renderTopics(entry.topics || []);
+      } catch (e) {
+        console.warn('Topics loader:', e);
+      }
+    
+
+    // Wait for project.js to finish (it's async), then render
+    // if (document.readyState === 'loading') {
+    //   document.addEventListener('DOMContentLoaded', () => setTimeout(fetchTopics, 300));
+    // } else {
+    //   setTimeout(fetchTopics, 300);
+    // }
+
+    // Also expose so project.js can call window.renderTopics(arr) directly
+    // window.renderTopics = renderTopics;
+  }
 
     /* ── BRANCHES RENDERER ── */
     let activeCommitRow = null;
@@ -329,6 +382,8 @@
 
         /* ── BRANCHES: commits ── */
         renderBranches(commits);
+
+        await fetchTopics(projects);
 
         /* ── FOOTER ── */
         const ownerName = proj.full_name || proj.name;

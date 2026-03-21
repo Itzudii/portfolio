@@ -1,2 +1,4 @@
-.venv/
-trash/
+*.venv/**
+*trash/**
+*.ipynb
+*__pycache__

@@ -682,6 +682,21 @@
       background: var(--red);
     }
 
+    .topics-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+
+    .topic-badge{
+      font-family:var(--mono,monospace);
+      font-size:10px;
+      letter-spacing:1px;
+      color:var(--gold,#c8922a);
+      padding:4px 10px;
+      border:1px solid rgba(200,146,42,.35);
+      background:rgba(200,146,42,.06);
+      text-transform:lowercase;
+      transition: background .2s, border-color .2s;
+    }
+    .topic-badge:hover{background:rgba(200,146,42,.14);border-color:var(--gold,#c8922a)}
+
     /* ── FOOTER ── */
     footer {
       position: relative;

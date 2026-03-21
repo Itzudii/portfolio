@@ -8,7 +8,7 @@
     const projects = await projectRes.json();
     const treeData = await treeRes.json();
 
-    const selected = projects.filter(p => p.selected !== false);
+    const selected = projects;
 
     // Language colour palette (extend as needed)
     const langColor = {
@@ -50,6 +50,13 @@
         </span>`;
       }).join('');
     }
+    
+    function buildTopicBadges(topics) {
+      if (!topics || !topics.length) return '';
+      return topics.slice(0, 6).map(t =>
+        `<span class="work-topic"># ${t}</span>`
+      ).join('');
+    }
 
     function formatDate(iso) {
       if (!iso) return '—';
@@ -65,6 +72,7 @@
       const year  = formatDate(repo.pushed_at || repo.updated_at);
       const langs = getLanguages(repo.name);
       const badges = buildLangBadges(langs);
+      const topicBadges = buildTopicBadges(repo.topics);
       const desc  = repo.description || 'No description provided.';
       const liveLink = repo.homepage
         ? `<a href="${repo.homepage}" target="_blank" rel="noopener" class="work-link">Live Demo</a>`
@@ -79,6 +87,7 @@
           <div class="work-title">${repo.name.replace(/-/g, ' ').replace(/_/g, ' ')}</div>
           </a><div class="work-desc">${desc}</div>
           <div class="work-stack">${badges}</div>
+          ${topicBadges ? `<div class="work-topics">${topicBadges}</div>` : ''}
           <div class="work-img"><div class="work-img-bar"></div></div>
         </div>
         <div class="work-meta">

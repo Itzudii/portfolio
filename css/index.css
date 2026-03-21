@@ -521,6 +521,8 @@ section {
     padding: 3px 8px;
     border: 1px solid var(--wire2)
 }
+.work-topic{font-size:10px;letter-spacing:1px;color:var(--gold);padding:3px 8px;border:1px solid rgba(200,146,42,.3);background:rgba(200,146,42,.05);text-transform:lowercase}
+.work-topics{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 
 .work-meta {
     padding: 40px 36px;

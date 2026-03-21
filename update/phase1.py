@@ -1,5 +1,9 @@
 import requests as req
-import json
+
+TREE_PATH = 'json/tree.json'
+DB_PATH = 'update/db.json'
+PROJ_PATH = 'json/project.json'
+PROJECT_LIMIT = 6
 
 def get(url:str):
     response = req.get(url)
@@ -31,6 +35,8 @@ def get_info_proj(repo):
     }
 
 if __name__ == '__main__':
+    import db
+    import warnings
 
     data = []
 
@@ -39,8 +45,14 @@ if __name__ == '__main__':
     for repo in repos:
         data.append(get_info_proj(repo))
 
-    with open('project.json','w') as f:
-        f.write(json.dumps(data))
+    data = [dat for dat in data if 'featured' in dat['topics']]
 
-    print('successfully phase 1 compleete')
-    print('select 6 projects before phase 2')
+    names = [dict['name'] for dict in data]
+
+    db.write_data({"names":names},DB_PATH)
+    db.write_data(data,PROJ_PATH)
+
+    if len(data) > PROJECT_LIMIT:
+        warnings.warn('warning: you selected projects more than 6, too many projects remove featured tag from github')
+
+    print('successfully phase 1 complete')
